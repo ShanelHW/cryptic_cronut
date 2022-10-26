@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     background-image: url('../../public/colorful-fancy-sprinkles-seamless-pattern-in-flat-vector-37240953.jpg');
-    color: rgb(90, 44, 1);
-    padding: 25px;
+    color: #915405;
+    padding: 20px;
+    margin:2%;
     font-size: 2em;
-    box-shadow: 5px 10px #1a0e00;
+    border-top-style: solid;
+    border-top-color: 2px #643901;
   }
   
   .header a {
@@ -16,7 +18,9 @@
   .header a:hover{
     color: #ffffff
   }
-  .jumbotron{
-    margin-left: 40vw;
+
+  h6{
+    margin-left: 50vw;
     font-style: oblique;
+    font-size:medium;
   }

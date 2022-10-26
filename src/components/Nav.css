@@ -1,18 +1,19 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(199, 136, 84, 0.938);
-    color: white;
-    padding: 15px;
+    color: #915405;
+    padding: 2px;
+    margin: 2%;
     font-size: 2em;
-    box-shadow: 5px 10px #1a0e00;
+    border-bottom-style: solid;
+    border-bottom-color: 2px #643901;
   }
   
   .nav a {
-    color: rgb(255, 248, 230);
+    color: #ddd4ba;
     text-decoration:none;
   }
 
   .nav a:hover{
-    color: #ffffff
+    color: #915405;
   }

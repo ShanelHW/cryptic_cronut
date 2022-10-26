@@ -20,6 +20,7 @@ export default function Price (props) {
 //     setCoin(data);
 //   };
 
+
   const getCoin = async () => {
     try{
       const res = await fetch(url);
@@ -40,9 +41,11 @@ export default function Price (props) {
     return (
       <div>
         <h1>
-          {coin.asset_id_base}/{coin.asset_id_quote}
+          ID: {coin.asset_id_base}/{coin.asset_id_quote}
         </h1>
-        <h2>{coin.rate}</h2>
+        <h2>Rate: {coin.rate}</h2>
+        <h1>
+        </h1>
       </div>
     );
   };

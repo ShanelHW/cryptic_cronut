@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+}
+
+
+#search-box-container{
+  padding: 0 20px;
+  font-family: "Lato";
+  font-size: 1em;
+  color: #f5ebde;
+}
+#gsearch{
+  border-radius: 4%;
+  border-style:dotted;
+  border-top-color:#ffffff;
+border-left-color: #ffffff;
+border-right-color: #ffffff;
+  border-bottom-color: #915405;  
+  background-color:#ffffff;
+  width: 15vh;
+  position:inherit;
+}
+
+.btn {
+  float: right;
+  width: 50px;
+  left: 0;
+  top: 0;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.fa {
+  display: inline !important;
+  line-height: 25%;
+  color: #915405;
+}
