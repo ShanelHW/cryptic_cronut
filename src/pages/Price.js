@@ -22,8 +22,8 @@ export default function Price (props) {
 
   const getCoin = async () => {
     try{
-      const response = await fetch(url);
-      const data = await response.json();
+      const res = await fetch(url);
+      const data = await res.json();
       setCoin(data);
     } catch(e){
       console.error(e)
