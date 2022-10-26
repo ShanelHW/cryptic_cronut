@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(199, 136, 84, 0.938);
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+    box-shadow: 5px 10px #1a0e00;
+  }
+  
+  .nav a {
+    color: rgb(255, 248, 230);
+    text-decoration:none;
+  }
+
+  .nav a:hover{
+    color: #ffffff
+  }
