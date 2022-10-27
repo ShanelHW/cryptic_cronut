@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Exchangee from './Exchange'
+import Exchange from './Exchange'
 import axios from 'axios'
 
 const CurrencyConverter = () => {
@@ -98,7 +98,7 @@ const CurrencyConverter = () => {
             </div>
 
 
-            <ExchangeRate
+            <Exchange
                 exchangedData={exchangedData}
             />
         </div>
